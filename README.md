@@ -5,6 +5,9 @@ The main task of this project is to automatically determine whether the current 
 ## Installation and Configuration
 
 The project is completed using Jupyter notebook and can be run on Jupyter notebook or Colab.
+Python version: 3.9.16 (main, Dec  7 2022, 01:11:51) 
+CUDA version: 11.6
+Transformers version: 4.27.3
 
 ## Usage
 
@@ -17,3 +20,4 @@ The project is completed using Jupyter notebook and can be run on Jupyter notebo
 I used Evaluating temporal relations in clinical text: 2012 i2b2 Challenge as my dataset
 
 ## Github
+https://github.com/yang-C23/Third_year_project.git
