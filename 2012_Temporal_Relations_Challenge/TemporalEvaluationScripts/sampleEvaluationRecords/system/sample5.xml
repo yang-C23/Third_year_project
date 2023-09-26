@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ClinicalNarrativeTemporalAnnotation>
+<TEXT><![CDATA[
+Admission Date :
+2013-11-21
+Discharge Date :
+2013-11-26
+Service :
+PLASTIC
+History of Present Illness :
+MS. Marshall IS A 64-YEAR OLD , MENTALLY RETARDED , FEMALE WHO PRESENTED WITH AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION AFTER BASAL CELL CARCINOMA WAS RESECTED BY DERMATOLOGY .
+Brief Hospital Course :
+UPON ADMISSION , THE PATIENT WAS PRE-OP 'D AND MADE NPO / IVF .
+SHE WENT TO SURGERY THE NEXT MORNING AND TOLERATED THE SURGERY WELL .
+HOWEVER , SHE WAS SLOW TO AWAKE FROM ANESTHESIA , AND WAS ADMITTED TO THE CMED CCU OBSERVATION .
+SHE WAS TRANSFERED TO THE FLOOR POST-OP DAY 2 WHERE SHE HAD BEEN AFEBRILE WITH NORMAL VITALS , MAKING GOOD URINE , AND TOLERATING A REGULAR DIET .
+HER WOUND HAS REMAIND DRY AND CLOSED , WITHOUT EVIDENCE OF INFECTION OR BREAKDOWN .
+SHE HAS BEEN WATCHED BY A SITTER AT ALL TIMES .
+]]></TEXT>
+<TAGS>
+<EVENT id="E0" start="136" end="153" text="MENTALLY RETARDED" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E1" start="182" end="246" text="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E2" start="253" end="273" text="BASAL CELL CARCINOMA" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E3" start="380" end="383" text="NPO" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E4" start="386" end="389" text="IVF" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E5" start="404" end="411" text="SURGERY" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E6" start="443" end="454" text="THE SURGERY" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E7" start="499" end="509" text="ANESTHESIA" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E9" start="624" end="632" text="AFEBRILE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E10" start="706" end="715" text="HER WOUND" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E11" start="765" end="774" text="INFECTION" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E12" start="778" end="787" text="BREAKDOWN" modality="FACTUAL" polarity="NEG" type="PROBLEM" />
+<EVENT id="E13" start="1" end="10" text="Admission" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E14" start="29" end="38" text="Discharge" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E15" start="333" end="342" text="ADMISSION" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E16" start="361" end="370" text="PRE-OP 'D" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E17" start="480" end="493" text="SLOW TO AWAKE" modality="FACTUAL" polarity="POS" type="EVIDENTIAL" />
+<EVENT id="E18" start="520" end="528" text="ADMITTED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E20" start="567" end="577" text="TRANSFERED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E21" start="585" end="590" text="FLOOR" modality="FACTUAL" polarity="POS" type="CLINICAL_DEPT" />
+<EVENT id="E22" start="638" end="651" text="NORMAL VITALS" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E23" start="661" end="671" text="GOOD URINE" modality="FACTUAL" polarity="POS" type="PROBLEM" />
+<EVENT id="E24" start="678" end="703" text="TOLERATING A REGULAR DIET" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E25" start="720" end="742" text="REMAIND DRY AND CLOSED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<EVENT id="E26" start="803" end="822" text="WATCHED BY A SITTER" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E27" start="536" end="556" text="CMED CCU OBSERVATION" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E28" start="278" end="286" text="RESECTED" modality="FACTUAL" polarity="POS" type="TREATMENT" />
+<EVENT id="E29" start="433" end="442" text="TOLERATED" modality="FACTUAL" polarity="POS" type="OCCURRENCE" />
+<TIMEX3 id="T0" start="18" end="28" text="2013-11-21" type="DATE" val="2013-11-21" mod="NA" />
+<TIMEX3 id="T1" start="46" end="56" text="2013-11-26" type="DATE" val="2013-11-26" mod="NA" />
+<TIMEX3 id="T2" start="416" end="428" text="NEXT MORNING" type="DATE" val="2013-11-22" mod="START" />
+<TIMEX3 id="T3" start="591" end="604" text="POST-OP DAY 2" type="DATE" val="2013-11-24" mod="NA" />
+<TIMEX3 id="T4" start="823" end="837" text="AT ALL TIMES ." type="DURATION" val="" mod="NA" />
+<TLINK id="TL0" fromID="E13" fromText="Admission" toID="T0" toText="2013-11-21" type="OVERLAP" />
+<TLINK id="TL1" fromID="E14" fromText="Discharge" toID="T1" toText="2013-11-26" type="OVERLAP" />
+<TLINK id="TL2" fromID="E1" fromText="AN AQUIRED DEFECT OF THE RIGHT NASAL ALA AND MEDIAL CHEEK REGION" toID="E2" toText="BASAL CELL CARCINOMA" type="AFTER" />
+<TLINK id="TL4" fromID="E28" fromText="RESECTED" toID="E2" toText="BASAL CELL CARCINOMA" type="OVERLAP" />
+<TLINK id="TL5" fromID="E15" fromText="ADMISSION" toID="E13" toText="Admission" type="OVERLAP" />
+<TLINK id="TL6" fromID="E16" fromText="PRE-OP 'D" toID="E15" toText="ADMISSION" type="AFTER" />
+<TLINK id="TL7" fromID="E3" fromText="NPO" toID="E16" toText="PRE-OP 'D" type="OVERLAP" />
+<TLINK id="TL8" fromID="E5" fromText="SURGERY" toID="T2" toText="NEXT MORNING" type="OVERLAP" />
+<TLINK id="TL9" fromID="E6" fromText="THE SURGERY" toID="E5" toText="SURGERY" type="OVERLAP" />
+<TLINK id="TL10" fromID="E29" fromText="TOLERATED" toID="E6" toText="THE SURGERY" type="OVERLAP" />
+<TLINK id="TL11" fromID="E17" fromText="SLOW TO AWAKE" toID="E5" toText="SURGERY" type="AFTER" />
+<TLINK id="TL12" fromID="E7" fromText="ANESTHESIA" toID="E17" toText="SLOW TO AWAKE" type="OVERLAP" />
+<TLINK id="TL13" fromID="E18" fromText="ADMITTED" toID="T2" toText="NEXT MORNING" type="AFTER" />
+<TLINK id="TL14" fromID="E27" fromText="CMED CCU OBSERVATION" toID="E18" toText="ADMITTED" type="AFTER" />
+<TLINK id="TL15" fromID="E20" fromText="TRANSFERED" toID="T3" toText="POST-OP DAY 2" type="OVERLAP" />
+<TLINK id="TL16" fromID="E21" fromText="FLOOR" toID="E20" toText="TRANSFERED" type="AFTER" />
+<TLINK id="TL17" fromID="E21" fromText="FLOOR" toID="E14" toText="Discharge" type="BEFORE" />
+<TLINK id="TL18" fromID="E9" fromText="AFEBRILE" toID="E21" toText="FLOOR" type="OVERLAP" />
+<TLINK id="TL19" fromID="E22" fromText="NORMAL VITALS" toID="E21" toText="FLOOR" type="OVERLAP" />
+<TLINK id="TL20" fromID="E23" fromText="GOOD URINE" toID="E21" toText="FLOOR" type="OVERLAP" />
+<TLINK id="TL21" fromID="E24" fromText="TOLERATING A REGULAR DIET" toID="E21" toText="FLOOR" type="OVERLAP" />
+<TLINK id="TL22" fromID="E10" fromText="HER WOUND" toID="E25" toText="REMAIND DRY AND CLOSED" type="OVERLAP" />
+<TLINK id="TL23" fromID="E25" fromText="REMAIND DRY AND CLOSED" toID="E5" toText="SURGERY" type="AFTER" />
+<TLINK id="TL24" fromID="E11" fromText="INFECTION" toID="E10" toText="HER WOUND" type="OVERLAP" />
+<TLINK id="TL25" fromID="E12" fromText="BREAKDOWN" toID="E10" toText="HER WOUND" type="OVERLAP" />
+<TLINK id="TL26" fromID="E26" fromText="WATCHED BY A SITTER" toID="T4" toText="AT ALL TIMES ." type="OVERLAP" />
+</TAGS>
+</ClinicalNarrativeTemporalAnnotation>

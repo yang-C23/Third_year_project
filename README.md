@@ -1,4 +1,8 @@
-# Temporal information extraction in clinical free text
+# MedTem: Medications and Treatments Mining and Temporal Relation Modelling using NLP
+
+<img src="https://github.com/HECTA-UoM/MedTem/blob/main/MedTem-logo-v1.png" width="100">
+
+
 
 The main task of this project is to automatically determine whether the current treatment is used during the patient's hospital stay based on the doctor's notes on the patient and the given treatment entities.
 
@@ -18,6 +22,3 @@ Transformers version: 4.27.3
 ## Dataset
 
 I used Evaluating temporal relations in clinical text: 2012 i2b2 Challenge as my dataset
-
-## Github
-https://github.com/yang-C23/Third_year_project.git
