@@ -1,0 +1,15 @@
+https://github.com/tuur/AbsClinTimelinesTASL/tree/main/bounded-timeline-annotation-tool/lib
+
+https://github.com/zonghui0228/BioMedical-NLP-corpus/blob/5ea2bf128a273a8772babd1b7abe06bc89301a57/README.md
+
+https://github.com/mrinalkadam/Named-Entity-Recognition-on-CoNLL-2003-Corpus/blob/main/HW4-CSCI544-Task1.py
+
+https://github.com/mxhofer/Named-Entity-Recognition-BidirectionalLSTM-CNN-CoNLL
+
+https://github.com/smitkiri/ehr-relation-extraction/blob/master/bilstm_crf_ner/model/data_utils.py
+
+https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/25.Date_Normalizer.ipynb
+
+https://github.com/JohnSnowLabs/spark-nlp-workshop/blob/master/tutorials/Certification_Trainings/Healthcare/25.Date_Normalizer.ipynb
+
+https://github.com/gmichalo/UmlsBERT
