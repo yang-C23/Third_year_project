@@ -22,3 +22,13 @@ Transformers version: 4.27.3
 ## Dataset
 
 I used Evaluating temporal relations in clinical text: 2012 i2b2 Challenge as my dataset
+
+## Cite our work:
+
+[HealTAC2023 presentation](http://healtex.org/healtac-2023/programme/)
+
+Yang Cui, Lifeng Han, Goran Nenadic. 2023. MedTem2.0: Prompt-based Temporal Classification of Treatment Events from Discharge Summaries. Accepted to ACL2023: SRW. [paper](https://aclanthology.org/2023.acl-srw.27/) [poster](MedTem2_poster_Portrait_4ACL.pdf)
+
+MedTem-1: @misc{tu2023extraction, title={Extraction of Medication and Temporal Relation from Clinical Text using Neural Language Models}, author={Hangyu Tu and Lifeng Han and Goran Nenadic}, year={2023}, eprint={2310.02229}, archivePrefix={arXiv}, url={https://arxiv.org/abs/2310.02229} primaryClass={cs.CL} }
+
+Hangyu Tu. 2022. Extraction of Temporal Information from Clinical Free Text. MSc thesis. Uni Manchester. MSc Advisor: [Prof Goran Nenadic](https://research.manchester.ac.uk/en/persons/gnenadic) and [Dr Lifeng Han](https://research.manchester.ac.uk/en/persons/lifeng.han) | [thesis-download](https://www.researchgate.net/publication/369453637_Extraction_of_Temporal_Information_from_Clinical_Free_Text)
